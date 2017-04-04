@@ -1,4 +1,4 @@
-body 
+ body 
 {
   padding-top: 50px;
 }
@@ -33,6 +33,12 @@ body
 .languages
 {
 	padding-top: 50px;
+}
+
+.header
+{
+	background-color: grey;
+	padding-bottom: 50px;
 }
 
 /*for editing devicons size*/
