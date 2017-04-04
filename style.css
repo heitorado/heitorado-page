@@ -1,7 +1,42 @@
-body {
+body 
+{
   padding-top: 50px;
 }
-.starter-template {
+
+.starter-template 
+{
   padding: 40px 15px;
   text-align: center;
+}
+
+.bio img
+{
+	border-radius: 100%;
+	border-style: dashed;
+	border-width: 10px;
+	text-align: center;
+	padding: 0px;
+}
+
+.bio p
+{
+	text-align: justify;
+	padding-top: 50px;
+	padding-left: 25px;
+}
+
+.bio
+{
+	padding-top: 50px;
+}
+
+.languages
+{
+	padding-top: 50px;
+}
+
+/*for editing devicons size*/
+i
+{
+	font-size: 100px;
 }
