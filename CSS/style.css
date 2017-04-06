@@ -111,6 +111,12 @@
 	padding-bottom: 0px;
 }
 
+.section-test
+{
+	background-color: #FFF;
+}
+
+/*Setting the position of the Arrows for HorizonScroll*/
 
 .horizon-prev, .horizon-next {
     position: fixed;

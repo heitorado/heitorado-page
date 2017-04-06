@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
@@ -22,11 +22,6 @@
 
     <!-- Custom styles for this template -->
     <link href="CSS/style.css" rel="stylesheet">
-
-    <!--JQuery Library and HorizontalScroll plugin-->
-    <script type="text/javascript" src="JS/jquery-3.2.0.js"></script>
-    <script type="text/javascript" src="JS/jquery.touchSwipe.js"></script>
-    <script type="text/javascript" src="JS/jquery.horizonScroll.js"></script>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -44,7 +39,7 @@
   </head>
 
   <body>
-
+  <!-- NAVBAR -->
     <nav class="navbar navbar-default navbar-fixed-top"> <!--can change to navbar-inverse to make it black-->
       <div class="container">
         <div class="navbar-header">
@@ -66,44 +61,49 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+  <!-- NAVBAR -->
 
-<div class="header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 bio">
-        <img src="https://placekitten.com/g/300/300" alt="Oie" width="300" height="300"> 
-      </div>
-
-      <div class="col-md-8 bio">
-        <h1>~hscs</h1>
-        <p><b>Heitor Sammuel Carvalho Souza</b><br>
-        Graduando no 2º Período de <b>Engenharia da Computação</b><br>
-        <b>Atualmente:</b> <a href="https://bit.ly/monitoriaipec">Monitor de Introdução à Programação</a><br>
-        <b>Interesses:</b> <i>Impressão 3D, Open Source, Web Development, Inteligência Artificial, Algoritmos e Programação Competitiva</i></p>
-      </div> 
-    </div><!-- /.row -->
-  </div><!-- /.container -->
-
-  <div class="skills">
+<section data-role="section" id="section-bio">
+  <div class="header">
     <div class="container">
-    <h2>&#60;SKILLS&#62;</h2>
       <div class="row">
-        <div class="col-md-12 languages">
-          <div class="badges">
-            <i class="devicon-c-plain"></i>
-            <i class="devicon-cplusplus-plain"></i>
-            <i class="devicon-html5-plain"></i>
-            <i class="devicon-css3-plain"></i>
-            <i class="devicon-bootstrap-plain"></i>
-            <i class="devicon-java-plain"></i>
-            <i class="devicon-python-plain"></i>
-            <i class="devicon-ubuntu-plain"></i>
-          </div>
-        </div>  
+        <div class="col-md-4 bio">
+          <img src="https://placekitten.com/g/300/300" alt="Oie" width="300" height="300"> 
+        </div>
+
+        <div class="col-md-8 bio">
+          <h1>~hscs</h1>
+          <p><b>Heitor Sammuel Carvalho Souza</b><br>
+          Graduando no 2º Período de <b>Engenharia da Computação</b><br>
+          <b>Atualmente:</b> <a href="https://bit.ly/monitoriaipec">Monitor de Introdução à Programação</a><br>
+          <b>Interesses:</b> <i>Impressão 3D, Open Source, Web Development, Inteligência Artificial, Algoritmos e Programação Competitiva</i></p>
+        </div> 
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+
+    <div class="skills">
+      <div class="container">
+      <h2>&#60;SKILLS&#62;</h2>
+        <div class="row">
+          <div class="col-md-12 languages">
+            <div class="badges">
+              <i class="devicon-c-plain"></i>
+              <i class="devicon-cplusplus-plain"></i>
+              <i class="devicon-html5-plain"></i>
+              <i class="devicon-css3-plain"></i>
+              <i class="devicon-bootstrap-plain"></i>
+              <i class="devicon-java-plain"></i>
+              <i class="devicon-python-plain"></i>
+              <i class="devicon-ubuntu-plain"></i>
+            </div>
+          </div>  
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
+
+<section data-role="section" id="section-test"></section>
 
 <!--Arrows for horizontal Scrolling-->
 <div class="horizon-prev"><img src="Images/l-arrow.png"></div>
@@ -121,5 +121,15 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!--JQuery Library and HorizontalScroll plugin-->
+    <script type="text/javascript" src="JS/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src="JS/jquery.touchSwipe.js"></script>
+    <script type="text/javascript" src="JS/jquery.horizonScroll.js"></script>
+
+    <!-- Site JavaScript-->
+    <script src='https://code.jquery.com/jquery-3.2.0.min.js'></script>
+    <script src='JS/mainScript.js'></script>
+
   </body>
 </html>
