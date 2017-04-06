@@ -10,6 +10,20 @@
   text-align: center;
 }
 
+.navbar-brand
+{
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+.nav
+{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	color: yellow;
+}
+
 .skills
 {
 	color: white;
