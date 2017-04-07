@@ -109,6 +109,45 @@
 	padding-bottom: 0px;
 }
 
+.contact
+{	
+	padding-top: 10%;
+	font-size: 200px;
+	color: white;
+}
+
+.contact a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.files-icon
+{
+	font-size: 150px;
+}
+
+.filesrow2
+{
+	padding-top: 75px;
+}
+
+
+.files
+{	
+	padding-top: 50px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	line-height: 2em;
+	color: white;
+}
+
+.files a
+{
+	text-decoration: none;
+	color: grey;
+}
+
 section {
     float: left;
     display: block;
